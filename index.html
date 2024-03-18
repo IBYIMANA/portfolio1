@@ -1,91 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="output.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="text-white bg-black">
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
     <!-- Navigation -->
     <nav class="justify-center float-right w-1/2 p-4 bg-gray-800 rounded-2xl">
-        <div class="mx-auto rounded">
-            <div class="flex items-center justify-between">
-                <div>
-                    <a href="#home" class="text-xl font-bold text-white">THEODETTE FILLETTE</a>
-                </div>
-                <div>
-                    <a href="#home" class="text-white">Home</a>
-                    <a href="#about" class="ml-4 text-white">About</a>
-                    <a href="#contact" class="ml-4 text-white">Contact</a>
-                </div>
-            </div>
+      <div class="mx-auto rounded">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="#home" class="text-xl font-bold text-white"
+              >THEODETTE FILLETTE</a
+            >
+          </div>
+          <div>
+            <a href="#home" class="text-white">Home</a>
+            <a href="#about" class="ml-4 text-white">About</a>
+            <a href="#contact" class="ml-4 text-white">Contact</a>
+          </div>
         </div>
+      </div>
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="w-2/5 bg-gray-200 rounded-lg h-1/2">
-           <div class="p-8 rounded-t-lg">
-            <h2 class="text-black"> Hi, Iam theodette</h2>
-            <img src="fi.jpeg" class="w-1/2 rounded-full">
-            <h3 class="text-black">Theodette fillette</h3>
-            <div class="text-black ">
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://web.whatsapp.com/">  <i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-            <br> <strong class="a "></strong> fillette ibyimana<br>
-            <br> <strong class="a"></strong> filletteibyimana@.com<br>
-            <br><strong class="a"></strong> 0784150477<br>
-            <br><strong class="a"></strong> KG 209 St, Kigali,remera<br>
-        </div>
-        <button class="w-1/2 h-10 bg-red-700 text-neutral-50 rounded-2xl">Download CV</button>
-            </section>
-    <section id="about" class="py-20 mt-20 ">
-        <div class="container text-center ml-72 -m-96">
-            <h1 class="font-bold text-white ">A BOUT ME  </h1>
-            <p cl>Hello,Iam THEODETTE, 
-            I study IT NETWORKING in UNILAK my current software developer.<br>
-            I Studied MPC in secondary school .i like to read books
-            my skills ,HTML,JavaScript,PYTHON
-            <br>Iam a young and woman on a journey to discover
-            my true potential and make<br>
-            a positive impact in the world.</p>
-        </div>
-        <div class="bg-orange-400 w-72 mb-96">
-            <h2 class="text-3xl font-bold text-center">What I do!</h2>
-            <h2 class="text-3xl font-bold text-center text-white">HTML</h2>
-                <p class="text-white">HyperText Markup Language or
-                <br> HTML is the standard markup language for documents designed 
-                to be displayed in a web browser. 
-                It defines the content and structure of web content. 
-                It is often assisted by technologies such as Cascading Style Sheets (CSS)
-                and scripting languages such as JavaScript.</p>   
-        </div>
-        <div class="mb-64 bg-orange-400 w-72">
-        <h1  class="text-3xl font-bold text-center">CSS</h1>
-        <P class="font-bold text-white ">CSS (Cascading Style Sheets) allows you to create great-looking web pages, 
-            but how does it work under the hood? 
-            This article explains what CSS is with a simple syntax example and
-             also covers some key terms about the language.</P>
+    <div class="grid w-full grid-cols-2 ml-36">
+      <div class="w-1/2 p-8 ml-10 bg-gray-400 rounded-t-lg">
+        <section id="home">
+          <img src="fi.jpeg" class="z-10 ml-16 rounded-xl h-44 w-44 mb-9" />
+          <h1 class="ml-20 font-extrabold text-black">Theodette fillette</h1>
+          <div class="ml-20 text-to-black">
+            <a href="https://www.instagram.com/" 
+              ><i class=" fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://web.whatsapp.com/">
+              <i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <br />
+            <div class="ml-3 text-center bg-white rounded-3xl">
+            <strong class="a">Email:</strong> filletteibyimana@.com<br />
+            <br/><strong class="a"> phone:</strong> 0784150477<br />
+            <br /><strong class="a">Location:</strong> KG 209 St, Kigali,remera<br />
+            <button class="w-1/2 h-10 bg-red-700 text-neutral-50 rounded-2xl">
+              Download CV</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="-ml-64">
+        <section id="about" class="py-20 -mt-360">
+          <div class="">
+            <h1 class="font-bold text-black">A BOUT ME</h1>
+            <p>
+              Hello,Iam THEODETTE, I study IT NETWORKING in UNILAK my current
+              software developer.<br />
+              I Studied MPC in secondary school .i like to read books my skills
+              ,HTML,JavaScript,PYTHON<br />
+              Iam a young and woman on a journey to discover my true potential
+              and make a positive impact in the world.
+            </p>
+          </div>
+          <h2 class="mt-5 text-3xl font-bold ml-80">What I do!</h2>
+          <div class="grid grid-cols-2">
+            <div class="w-1/2">
+              <h2 class="text-3xl font-bold text-center text-black">HTML</h2>
+              <p class="text-black">
+                HyperText Markup Language or <br />
+                HTML is the standard markup language for documents designed to
+                be displayed in a web browser. It defines the content and
+                structure of web content. It is often assisted by technologies
+                such as Cascading Style Sheets (CSS) and scripting languages
+                such as JavaScript.
+              </p>
+            </div>
+            <div class="float-right w-1/2 bg-oange-400 mb-624">
+              <h1 class="text-3xl font-bold text-center">CSS</h1>
+              <p class="font-bold text-black">
+                CSS (Cascading Style Sheets) allows you to create great-looking
+                web pages, but how does it work under the hood? This article
+                explains what CSS is with a simple syntax example and also
+                covers some key terms about the language.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    </section>
     <section id="contact" class="py-20">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold">Contact Me</h2>
-        </div>
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold">Contact Me</h2>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="p-4 text-white bg-gray-800">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+      </div>
     </footer>
 
     <!-- JavaScript -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
