@@ -19,3 +19,10 @@ module.exports = {
       }
     }
  }
+ function showNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function hideNav() {
+  document.getElementById("myNav").style.display = "none";
+}
